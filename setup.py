@@ -18,13 +18,13 @@ DESCRIPTION = 'Adapt Segmentation Networks to work for Classification Explanatio
 URL = 'https://github.com/ginihumer/segmentation-explanation-adapter'
 EMAIL = 'ginihumer96@yahoo.de'
 AUTHOR = 'Gin'
-REQUIRES_PYTHON = '>=3.6.0'
+REQUIRES_PYTHON = '>=3.8.0'
 VERSION = '0.1.5'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'tensorflow',
-    'pillow',
+    'tensorflow==2.8.0',
+    'pillow==9.1.0',
 ]
 
 # What packages are optional?
