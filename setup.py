@@ -13,17 +13,17 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'mypackage'
-DESCRIPTION = 'My short description for my project.'
-URL = 'https://github.com/me/myproject'
-EMAIL = 'me@example.com'
-AUTHOR = 'Awesome Soul'
+NAME = 'segmentation-explanation-adapter'
+DESCRIPTION = 'Adapt Segmentation Networks to work for Classification Explanation Methods.'
+URL = 'https://github.com/ginihumer/segmentation-explanation-adapter'
+EMAIL = 'ginihumer96@yahoo.de'
+AUTHOR = 'Gin'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.1.0'
+VERSION = '0.1.5'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    # 'requests', 'maya', 'records',
+    'tensorflow',
 ]
 
 # What packages are optional?
@@ -104,7 +104,7 @@ setup(
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
+    packages=['segmentationadapter'],#find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
     # If your package is a single module, use this instead of 'packages':
     # py_modules=['mypackage'],
 
