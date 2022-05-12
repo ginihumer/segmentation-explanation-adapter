@@ -24,6 +24,7 @@ VERSION = '0.1.5'
 # What packages are required for this module to be executed?
 REQUIRED = [
     'tensorflow',
+    'pillow',
 ]
 
 # What packages are optional?
