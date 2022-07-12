@@ -23,7 +23,7 @@ VERSION = '0.1.5'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'tensorflow==2.8.0',
+    'tensorflow==2.9.0',
     'pillow==9.1.0',
 ]
 
